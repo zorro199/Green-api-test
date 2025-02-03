@@ -1,0 +1,15 @@
+.msgerChat {
+    display: flex;
+    overflow-y: auto;
+    padding: 10px;
+    flex-direction: column-reverse;
+  }
+  .msgerChat::-webkit-scrollbar {
+    width: 6px;
+  }
+  .msgerChat::-webkit-scrollbar-track {
+    background: #ddd;
+  }
+  .msgerChat::-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+  }
